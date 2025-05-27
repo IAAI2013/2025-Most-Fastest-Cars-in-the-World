@@ -31,33 +31,10 @@
             color: #fff;
             text-decoration: underline;
         }
-        main {
-            max-width: 700px;
-            margin: 40px auto;
-            background: #fff;
-            padding: 30px 40px;
-            border-radius: 12px;
-            box-shadow: 0 2px 16px rgba(0,0,0,0.08);
-        }
         section {
             margin-bottom: 32px;
         }
-        h1 {
-            margin-bottom: 10px;
-            font-size: 2.2em;
-        }
-        .koen {
-            color: gold;
-            margin-top: 0;
-        }
-        .scc {
-            color: silver;
-            margin-top: 0;
-        }
-        .bug {
-            color: rgb(205, 127, 50);
-            margin-top: 0;
-        }
+        
         @media (max-width: 600px) {
             main {
                 padding: 16px 8px;
@@ -77,31 +54,38 @@
         </ul>
     </nav>
     </header>
-    <main>
-        <section id="Koenigsegg_Jesko_Absolut">
-            <h2 class="koen">1. Koenigsegg Jesko Absolut</h2>
-            <p>
-                The Koenigsegg Jesko Absolut is a high-speed version of the Jesko, designed for ultimate performance and speed. It features a 5.0-liter twin-turbocharged V8 engine capable of producing 1,600 bhp on E85 fuel, and a drag coefficient of 0.278, making it one of the fastest production cars ever built. The Jesko Absolut is engineered to achieve a top speed of over 533 km/h (330 mph) and is one of only 125 units ever produced, making it an exclusive and highly sought-after hypercar. 
-            </p>
-            <a href="https://www.koenigsegg.com/jesko-absolut/"><center><img src="2-Koenigsegg-Jesko-Absolut.jpg" alt="jesko" style="height: 250px;"></center></a>
-        </section>
-        <section id="ssc">
-            <h2 class="ssc">2. SSC Tuatara</h2>
-            <p>
-                The SSC Tuatara hypercar, designed and produced by SSC North America, is a high-performance vehicle known for its remarkable speed and power. It's a hypercar that delivers a visceral thrill, particularly with its powerful V8 engine. While electric hypercars are gaining popularity, the Tuatara is a testament to the enduring appeal of combustion engines. 
-            </p>
-            <a href="https://www.sscnorthamerica.com/model/tuatara"><center><img src="1200x800.jpg" alt="tuatara" style="height: 250px;"></center></a>
-        </section>
-        <section id="bug">
-            <h2 class="bug">3. Bugatti Tourbillon</h2>
-            <p>
-               The Bugatti Tourbillon is a mid-engine hybrid sports car developed by Bugatti to succeed the Chiron. It features a new V16 engine and three electric motors, offering a combined output of 1,800 horsepower. The Tourbillon is also known for its innovative aerodynamic design and a fixed hub steering wheel.
-            </p>
-            <a href="https://www.bugatti.com/en/models/tourbillon"><center><img src="original.jpg" alt="tourbillon" style="height: 250px;"></center></a>
-        </section>
-    </main>
-
-    <footer style="background: #222; color: #fff; text-align: center; padding: 20px 0; margin-top: 40px; width: 100%;">
+    <h1><center>About Us</center></h1>
+                <p>We are a team of car enthusiasts dedicated to bringing you the latest and greatest in automotive news, especially focusing on the fastest cars in the world. Our passion for speed and innovation drives us to explore the cutting-edge technology behind these incredible machines.</p>
+                <p>Join us as we delve into the world of high-performance vehicles, sharing insights, reviews, and updates on the top contenders in the automotive industry.</p>
+    <section id="form">
+    <form>
+        <fieldset>
+            <legend>
+                About Us   
+            </legend>
+            <label>Name </label><input type="text" id="name" placeholder="Enter your name" required><br><br>
+            <label>Email </label><input type="email" id="email" placeholder="Enter your email" required><br><br>
+            <label>Contact Number (This will be hidden) </label><input type="password" id="contact" placeholder="Enter your contact number" required><br><br>
+            <label>Gender </label><br><input type="radio" name="gender" id="gender" value="Female">Female<br>
+            <input type="radio" name="gender" id="gender" value="Male">Male<br>
+            <input type="radio" name="gender" id="gender" value="Prefer not to say">Prefer not to say<br><br>
+            <label>Favourite Car </label><br>
+            <input type="checkbox" name="car" id="car" value="Koenigsegg Jesko Absolut">Koenigsegg Jesko Absolut<br>
+            <input type="checkbox" name="car" id="car" value="SSC Tuatara">SSC Tuatara<br>
+            <input type="checkbox" name="car" id="car" value="Bugatti Tourbillon">Bugatti Tourbillon<br>
+            <input type="checkbox" name="car" id="car" value="Hennessey Venom F5">Hennessey Venom F5<br>
+            <input type="checkbox" name="car" id="car" value="Rimac C_Two">Rimac C_Two<br>
+            <input type="checkbox" name="car" id="car" value="McLaren Sena">Mclaren Sena<br>
+            <input type="checkbox" name="car" id="car" value="Porsche 918 Spyder">Porsche 918 Spyder<br>
+            <input type="checkbox" name="car" id="car" value="Ferrari LaFerrari">Ferrari LaFerrari<br>
+            <input type="checkbox" name="car" id="car" value="Lamborghini Sián">Lamborghini Sián<br>
+            <input type="checkbox" name="car" id="car" value="Pagani Huayra BC Roadster">Pagani Huayra BC Roadster<br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+    </section>
+        <footer style="background: #222; color: #fff; text-align: center; padding: 20px 0; margin-top: 40px;">
         <p style="margin: 0;">&copy; 2024 Fastest Cars Info. All rights reserved.</p>
         <div style="max-width: 600px; margin: 30px auto 0 auto;">
             <div id="car-slider" style="overflow: hidden; position: relative;">
